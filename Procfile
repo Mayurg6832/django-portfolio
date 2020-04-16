@@ -1,0 +1,1 @@
+web: gunicorn portApp.wsgi:application --log-file -
